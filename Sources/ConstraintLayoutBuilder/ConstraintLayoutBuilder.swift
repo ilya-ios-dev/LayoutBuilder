@@ -1,5 +1,5 @@
 //
-//  LayoutBuilder.swift
+//  ConstraintLayoutBuilder.swift
 //  
 //
 //  Created by isEmpty on 12.01.2022.
@@ -8,7 +8,7 @@
 import UIKit
 
 @resultBuilder
-public struct LayoutBuilder {
+public struct ConstraintLayoutBuilder {
     public static func buildBlock(_ components: LayoutGroup...) -> [NSLayoutConstraint] {
         return components.flatMap { $0.constraints }
     }

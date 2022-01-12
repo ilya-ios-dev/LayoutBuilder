@@ -13,11 +13,12 @@
 		09632239278ECD7A007A25E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09632237278ECD7A007A25E2 /* Main.storyboard */; };
 		0963223B278ECD7C007A25E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0963223A278ECD7C007A25E2 /* Assets.xcassets */; };
 		0963223E278ECD7C007A25E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0963223C278ECD7C007A25E2 /* LaunchScreen.storyboard */; };
-		09AE77CA278ECEBE0036DE93 /* LayoutBuilder in Frameworks */ = {isa = PBXBuildFile; productRef = 09AE77C9278ECEBE0036DE93 /* LayoutBuilder */; };
+		09CC08CA278EE75C002D6F03 /* ConstraintLayoutBuilder in Frameworks */ = {isa = PBXBuildFile; productRef = 09CC08C9278EE75C002D6F03 /* ConstraintLayoutBuilder */; };
+		09CC08CC278EE75C002D6F03 /* KeyPathLayoutBuilder in Frameworks */ = {isa = PBXBuildFile; productRef = 09CC08CB278EE75C002D6F03 /* KeyPathLayoutBuilder */; };
+		09DE8142278ED3B0006F2ED4 /* ScopeFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DE8141278ED3B0006F2ED4 /* ScopeFunc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		091857BC278ECE130074182A /* LayoutBuilder */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = LayoutBuilder; path = ..; sourceTree = "<group>"; };
 		0963222E278ECD7A007A25E2 /* IOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09632231278ECD7A007A25E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09632233278ECD7A007A25E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +27,8 @@
 		0963223A278ECD7C007A25E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0963223D278ECD7C007A25E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0963223F278ECD7C007A25E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09CC08C8278EE751002D6F03 /* LayoutBuilder */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = LayoutBuilder; path = ..; sourceTree = "<group>"; };
+		09DE8141278ED3B0006F2ED4 /* ScopeFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopeFunc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09AE77CA278ECEBE0036DE93 /* LayoutBuilder in Frameworks */,
+				09CC08CA278EE75C002D6F03 /* ConstraintLayoutBuilder in Frameworks */,
+				09CC08CC278EE75C002D6F03 /* KeyPathLayoutBuilder in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +47,7 @@
 		091857BB278ECE130074182A /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				091857BC278ECE130074182A /* LayoutBuilder */,
+				09CC08C8278EE751002D6F03 /* LayoutBuilder */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -72,6 +76,7 @@
 				09632231278ECD7A007A25E2 /* AppDelegate.swift */,
 				09632233278ECD7A007A25E2 /* SceneDelegate.swift */,
 				09632235278ECD7A007A25E2 /* ViewController.swift */,
+				09DE8141278ED3B0006F2ED4 /* ScopeFunc.swift */,
 				09632237278ECD7A007A25E2 /* Main.storyboard */,
 				0963223A278ECD7C007A25E2 /* Assets.xcassets */,
 				0963223C278ECD7C007A25E2 /* LaunchScreen.storyboard */,
@@ -104,7 +109,8 @@
 			);
 			name = "IOS Example";
 			packageProductDependencies = (
-				09AE77C9278ECEBE0036DE93 /* LayoutBuilder */,
+				09CC08C9278EE75C002D6F03 /* ConstraintLayoutBuilder */,
+				09CC08CB278EE75C002D6F03 /* KeyPathLayoutBuilder */,
 			);
 			productName = "IOS Example";
 			productReference = 0963222E278ECD7A007A25E2 /* IOS Example.app */;
@@ -134,6 +140,8 @@
 				Base,
 			);
 			mainGroup = 09632225278ECD7A007A25E2;
+			packageReferences = (
+			);
 			productRefGroup = 0963222F278ECD7A007A25E2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -161,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09DE8142278ED3B0006F2ED4 /* ScopeFunc.swift in Sources */,
 				09632236278ECD7A007A25E2 /* ViewController.swift in Sources */,
 				09632232278ECD7A007A25E2 /* AppDelegate.swift in Sources */,
 				09632234278ECD7A007A25E2 /* SceneDelegate.swift in Sources */,
@@ -240,7 +249,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -295,7 +304,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -385,9 +394,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		09AE77C9278ECEBE0036DE93 /* LayoutBuilder */ = {
+		09CC08C9278EE75C002D6F03 /* ConstraintLayoutBuilder */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = LayoutBuilder;
+			productName = ConstraintLayoutBuilder;
+		};
+		09CC08CB278EE75C002D6F03 /* KeyPathLayoutBuilder */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KeyPathLayoutBuilder;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

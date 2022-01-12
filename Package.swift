@@ -9,11 +9,11 @@ let package = Package(
         .iOS(.v12)
     ],
     products: [
-        .library(name: "LayoutBuilder", targets: ["LayoutBuilder"]),
+        .library(name: "ConstraintLayoutBuilder", targets: ["ConstraintLayoutBuilder"]),
         .library(name: "KeyPathLayoutBuilder", targets: ["KeyPathLayoutBuilder"]),
     ],
     targets: [
-        .target(name: "LayoutBuilder", dependencies: []),
+        .target(name: "ConstraintLayoutBuilder", dependencies: []),
         .target(name: "KeyPathLayoutBuilder", dependencies: []),
     ]
 )
