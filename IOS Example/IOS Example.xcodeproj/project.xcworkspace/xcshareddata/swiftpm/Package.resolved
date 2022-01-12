@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "LayoutBuilder",
+        "repositoryURL": "https://github.com/ilya-ios-dev/LayoutBuilder",
+        "state": {
+          "branch": "main",
+          "revision": "8b490a55f2eea2adb7629574177158ee51a26522",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
