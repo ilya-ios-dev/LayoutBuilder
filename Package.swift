@@ -10,8 +10,10 @@ let package = Package(
     ],
     products: [
         .library(name: "LayoutBuilder", targets: ["LayoutBuilder"]),
+        .library(name: "KeyPathLayoutBuilder", targets: ["KeyPathLayoutBuilder"]),
     ],
     targets: [
         .target(name: "LayoutBuilder", dependencies: []),
+        .target(name: "KeyPathLayoutBuilder", dependencies: []),
     ]
 )
