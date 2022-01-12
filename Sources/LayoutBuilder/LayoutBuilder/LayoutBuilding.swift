@@ -7,11 +7,11 @@
 
 import UIKit
 
-protocol SubviewContaining { }
+public protocol SubviewContaining { }
 
-extension UIView: SubviewContaining { }
+public extension UIView: SubviewContaining { }
 
-extension SubviewContaining where Self: UIView {
+public extension SubviewContaining where Self: UIView {
     
     /// Add a child subview and directly activate the given constraints.
     func addSubview<View: UIView>(
@@ -24,7 +24,7 @@ extension SubviewContaining where Self: UIView {
     }
 }
 
-extension NSLayoutConstraint {
+public extension NSLayoutConstraint {
     /// Activate the layouts defined in the result builder parameter `constraints`.
     static func activate(@AutolayoutBuilder constraints: () -> [NSLayoutConstraint]) {
         activate(constraints())
