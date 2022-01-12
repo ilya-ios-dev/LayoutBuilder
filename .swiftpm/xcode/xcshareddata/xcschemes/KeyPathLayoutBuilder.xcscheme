@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "LayoutBuilder"
-               BuildableName = "LayoutBuilder"
-               BlueprintName = "LayoutBuilder"
+               BlueprintIdentifier = "KeyPathLayoutBuilder"
+               BuildableName = "KeyPathLayoutBuilder"
+               BlueprintName = "KeyPathLayoutBuilder"
                ReferencedContainer = "container:">
             </BuildableReference>
          </BuildActionEntry>
@@ -50,9 +50,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "LayoutBuilder"
-            BuildableName = "LayoutBuilder"
-            BlueprintName = "LayoutBuilder"
+            BlueprintIdentifier = "KeyPathLayoutBuilder"
+            BuildableName = "KeyPathLayoutBuilder"
+            BlueprintName = "KeyPathLayoutBuilder"
             ReferencedContainer = "container:">
          </BuildableReference>
       </MacroExpansion>
